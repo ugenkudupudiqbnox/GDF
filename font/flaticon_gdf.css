@@ -1,0 +1,89 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_gdf";
+    src: url("./flaticon_gdf.woff2?cf8f28fc1e67123ae58c8b5de028c752") format("woff2"),
+url("./flaticon_gdf.woff?cf8f28fc1e67123ae58c8b5de028c752") format("woff"),
+url("./flaticon_gdf.eot?cf8f28fc1e67123ae58c8b5de028c752#iefix") format("embedded-opentype"),
+url("./flaticon_gdf.ttf?cf8f28fc1e67123ae58c8b5de028c752") format("truetype"),
+url("./flaticon_gdf.svg?cf8f28fc1e67123ae58c8b5de028c752#flaticon_gdf") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_gdf !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-leadership:before {
+    content: "\f101";
+}
+.flaticon-sponsor:before {
+    content: "\f102";
+}
+.flaticon-relations:before {
+    content: "\f103";
+}
+.flaticon-research:before {
+    content: "\f104";
+}
+.flaticon-infrastructure:before {
+    content: "\f105";
+}
+.flaticon-government:before {
+    content: "\f106";
+}
+.flaticon-project-management:before {
+    content: "\f107";
+}
+.flaticon-loan:before {
+    content: "\f108";
+}
+.flaticon-capital-venture:before {
+    content: "\f109";
+}
+.flaticon-thought-leadership:before {
+    content: "\f10a";
+}
+.flaticon-calendar:before {
+    content: "\f10b";
+}
+.flaticon-access-key:before {
+    content: "\f10c";
+}
+.flaticon-private-key:before {
+    content: "\f10d";
+}
+.flaticon-team:before {
+    content: "\f10e";
+}
+.flaticon-corporate-governance:before {
+    content: "\f10f";
+}
+.flaticon-corporate-reputation:before {
+    content: "\f110";
+}
+.flaticon-infrastructure-1:before {
+    content: "\f111";
+}
+.flaticon-team-1:before {
+    content: "\f112";
+}
+.flaticon-home:before {
+    content: "\f113";
+}
+

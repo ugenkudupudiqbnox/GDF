@@ -1,0 +1,101 @@
+$flaticon_gdf-font: "flaticon_gdf";
+
+@font-face {
+    font-family: $flaticon_gdf-font;
+    src: url("./flaticon_gdf.woff2?cf8f28fc1e67123ae58c8b5de028c752") format("woff2"),
+url("./flaticon_gdf.woff?cf8f28fc1e67123ae58c8b5de028c752") format("woff"),
+url("./flaticon_gdf.eot?cf8f28fc1e67123ae58c8b5de028c752#iefix") format("embedded-opentype"),
+url("./flaticon_gdf.ttf?cf8f28fc1e67123ae58c8b5de028c752") format("truetype"),
+url("./flaticon_gdf.svg?cf8f28fc1e67123ae58c8b5de028c752#flaticon_gdf") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_gdf !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_gdf-map: (
+    "leadership": "\f101",
+    "sponsor": "\f102",
+    "relations": "\f103",
+    "research": "\f104",
+    "infrastructure": "\f105",
+    "government": "\f106",
+    "project-management": "\f107",
+    "loan": "\f108",
+    "capital-venture": "\f109",
+    "thought-leadership": "\f10a",
+    "calendar": "\f10b",
+    "access-key": "\f10c",
+    "private-key": "\f10d",
+    "team": "\f10e",
+    "corporate-governance": "\f10f",
+    "corporate-reputation": "\f110",
+    "infrastructure-1": "\f111",
+    "team-1": "\f112",
+    "home": "\f113",
+);
+
+.flaticon-leadership:before {
+    content: map-get($flaticon_gdf-map, "leadership");
+}
+.flaticon-sponsor:before {
+    content: map-get($flaticon_gdf-map, "sponsor");
+}
+.flaticon-relations:before {
+    content: map-get($flaticon_gdf-map, "relations");
+}
+.flaticon-research:before {
+    content: map-get($flaticon_gdf-map, "research");
+}
+.flaticon-infrastructure:before {
+    content: map-get($flaticon_gdf-map, "infrastructure");
+}
+.flaticon-government:before {
+    content: map-get($flaticon_gdf-map, "government");
+}
+.flaticon-project-management:before {
+    content: map-get($flaticon_gdf-map, "project-management");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon_gdf-map, "loan");
+}
+.flaticon-capital-venture:before {
+    content: map-get($flaticon_gdf-map, "capital-venture");
+}
+.flaticon-thought-leadership:before {
+    content: map-get($flaticon_gdf-map, "thought-leadership");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_gdf-map, "calendar");
+}
+.flaticon-access-key:before {
+    content: map-get($flaticon_gdf-map, "access-key");
+}
+.flaticon-private-key:before {
+    content: map-get($flaticon_gdf-map, "private-key");
+}
+.flaticon-team:before {
+    content: map-get($flaticon_gdf-map, "team");
+}
+.flaticon-corporate-governance:before {
+    content: map-get($flaticon_gdf-map, "corporate-governance");
+}
+.flaticon-corporate-reputation:before {
+    content: map-get($flaticon_gdf-map, "corporate-reputation");
+}
+.flaticon-infrastructure-1:before {
+    content: map-get($flaticon_gdf-map, "infrastructure-1");
+}
+.flaticon-team-1:before {
+    content: map-get($flaticon_gdf-map, "team-1");
+}
+.flaticon-home:before {
+    content: map-get($flaticon_gdf-map, "home");
+}
