@@ -66,7 +66,8 @@ $secretKey = '6Lce05QrAAAAAHYKLmQ6T_Lgm4cZcC3pkrYa2MQH';
           <li><a href="#our-mission">Our Mission</a></li>
           <li><a href="#what-we-do">What We Do</a></li>
           <li><a href="#engagement-model">Engagement Model</a></li>
-          <li><a href="#executive-leadership">Advisory Board</a></li>
+          <li><a href="#team">Advisory Board</a></li>
+          <li><a href="#portfolio">Gallery</a></li>
           <li><a href="#recent-posts">Driving the Next Era</a></li>
           <li><a href="#where-we-operate">Where We Operate</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -394,15 +395,15 @@ $secretKey = '6Lce05QrAAAAAHYKLmQ6T_Lgm4cZcC3pkrYa2MQH';
    
 
 <!-- Alt Features Section -->
-    <section id="executive-leadership" class="alt-features section">
+  <?php /* <section id="executive-leadership" class="alt-features section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        
-        <p>Governing Board, Advisory Board & Executive Leadership
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+    
+    <p>Governing Board, Advisory Board & Executive Leadership
 <br></p>
 
-      </div><!-- End Section Title -->
+    </div><!-- End Section Title --> */ ?>
 
       <div class="container">
 
@@ -737,6 +738,186 @@ Modern robots can perceive, learn, and interact with their environment.
 
     </section><!-- /Features Section -->
 
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+          <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        
+        <p>Governing Board, Advisory Board & Executive Leadership
+<br></p>
+
+      </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Governing Board</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/ugen.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/ugen-kudupudi/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ugendreshwar Kudupudi</h4>
+                <span>Governing Board Member</span>
+                <p>First-generation entrepreneur with over 20 years of experience in the Semiconductor and AI sector. Extensive experience in engineering, sales, marketing, and customer success, providing a comprehensive perspective on customer behavior and cross-border team management.</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/sarvesh.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/sarveshsingh1/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarvesh Singh</h4>
+                <span>Governing Board Member</span>
+                <p>Building a Globally Competitive Lifesciences Ecosystem</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/ramesh.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/raoramesh/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dr. Ramesh Rao</h4>
+                <span>Governing Board Member</span>
+                <p>Technology  entrepreneur, former Bell Labs researcher, physicist, focus on tech for humanity; research in medical imaging. Ramesh has a deep background spanning physical sciences, engineering and market focus, across multiple continents. Academic background includes research in NMR spectroscopy, physical chemistry, long chain polymers, concurrent algorithms and computers, medical imaging, data and telecommunications networking, biometrics, semiconductor manufacturing. Much of this work also has overlapped industrial applications and startups, in a process to create implementation. His more recent work is reflected in applied and granted patents, and work with startup companies, as co-founder, leader and sometimes switching hats in different roles as needed.</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Quantum</li>
+            <!-- <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/quantum/1000049945.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Quantum 1</h4>
+                  <a href="assets/img/gallery/quantum/1000049945.webp" title="Quantum 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052017.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 2</h4>
+                <a href="assets/img/gallery/quantum/1000052017.webp" title="Quantum 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052145.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 3</h4>
+                <a href="assets/img/gallery/quantum/1000052145.webp" title="Quantum 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052155.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 4</h4>
+                <a href="assets/img/gallery/quantum/1000052155.webp" title="Quantum 4" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052156.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 5</h4>
+                <a href="assets/img/gallery/quantum/1000052156.webp" title="Quantum 5" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052268.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 6</h4>
+                <a href="assets/img/gallery/quantum/1000052268.webp" title="Quantum 6" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+              <img src="assets/img/gallery/quantum/1000052286.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Quantum 7</h4>
+                <a href="assets/img/gallery/quantum/1000052286.webp" title="Quantum 7" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
 
 <!-- contact us -->
  <section id="contact" class="contact section">
@@ -913,6 +1094,8 @@ Modern robots can perceive, learn, and interact with their environment.
             <li><i class="bi bi-chevron-right"></i> <a href="#our-mission">Our Mission</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#engagement-model">Engagement Model</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#executive-leadership">Advisory Board</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#team">Team</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Gallery</a></li>
              <li><i class="bi bi-chevron-right"></i> <a href="#recent-posts">Driving the Next Era</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#where-we-operate">Where We Operate</a></li>
           </ul>
@@ -1004,7 +1187,7 @@ form.addEventListener('submit', function (e) {
 	contact_rules[0] = 'name|required|Enter Your Name';
 	contact_rules[1] = 'phone|required|Enter Phone Number';
 	contact_rules[2] = 'email|required|Enter Your E-mail';
-	contact_rules[3] = 'email|email|Enter your E-mail';
+	contact_rules[3] = 'email|email|Enter your e-Mail';
 	contact_rules[4] = 'comments|required|Enter Comments';
    </script>
    <script>
